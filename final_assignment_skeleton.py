@@ -168,8 +168,6 @@ def compute_score(alignment_file, go_one_dict, go_two_dict):
 
 
 def main():
-    
-    # TODO: PUT YOUR CODE HERE
      
     #Here use the arguments of the script call in the command line, each of them is a path for alignent file, maping and GO files
     align_path = sys.argv[1]
