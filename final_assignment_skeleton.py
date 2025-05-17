@@ -137,7 +137,6 @@ def compute_score(alignment_file, go_one_dict, go_two_dict):
     ID_list = []
     
     for line in f:
-        # TODO: PUT YOUR CODE HERE
         # Seperate the id of the columns and the strip the new line character
         words = line.strip()
         ID_list = (words.split("\t"))
